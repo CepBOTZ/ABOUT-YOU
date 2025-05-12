@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  background: url('files/folk.jpg') center/cover no-repeat;
+  background: url('folk.jpg') center/cover no-repeat;
   backdrop-filter: blur(10px);
   width: 100%;
   height: 100%;
