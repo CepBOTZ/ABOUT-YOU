@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="music-player">
+      <img src="files/folk.jpg" alt="Album Cover" class="cover"/>
+      <h2>About You</h2>
+      <p>the 1975</p>
+
+      <input type="range" value="0" class="progress" id="progress"/>
+
+    <div class="time">
+      <span id="current-time">0:00</span>
+      <span id="duration">0:00</span>
+    </div>
+
+      <div class="controls">
+        <button id="prev"><i class="fas fa-backward"></i></button>
+        <button id="play"><i class="fas fa-play"></i></button>
+        <button id="next"><i class="fas fa-forward"></i></button>
+      </div>
+    <div id="particles-container"></div>
+    <div id="floating-hearts-container"></div>
+    <div id="love-text">Love U &lt;3</div>
+      <audio id="audio" src="files/bout.mp3"></audio>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
